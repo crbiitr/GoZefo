@@ -1,0 +1,17 @@
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/models/SubCategoryDAO.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/ManagerFactory.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/models/SofasDAO.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/response/BaseResponse.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/response/ProductResponse.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/factories/ProductManager.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/response/ErrorsResponse.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/constants/Constants.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/factories/CategoryManager.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/request/ProductRequest.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/resources/BaseResource.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/GozefoAssignmentConfiguration.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/GozefoAssignmentApplication.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/resources/ProductResource.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/dao/models/CategoryDAO.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/response/CategoryResponse.java
+/home/chetan/GozefoAssignment/src/main/java/com/api/representation/request/CategoryRequest.java

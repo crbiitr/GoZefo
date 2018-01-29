@@ -1,0 +1,44 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 8080
+
+database:
+ # the name of your JDBC driver
+ driverClass: com.mysql.jdbc.Driver
+ # the username
+ user: root
+ # the username
+
+# the password
+ password:123
+
+# the JDBC URL
+ url: jdbc:mysql://localhost:3306/zefo
+ # any properties specific to your JDBC driver:
+ properties:
+   charSet: UTF-8
+   hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+
+  appenders:
+    - type: console
+    - type: file
+      threshold: INFO
+      logFormat: ""
+      #logFormat: "%-6level [%d{HH:mm:ss.SSS}] [%t] %logger{5} - %X{code} %msg %n"
+      currentLogFilename: /var/log/seesion-service/application.log
+      archivedLogFilenamePattern: /var/log/seesion-service/seesion-service-%d{yyyy-MM-dd}-%i.log.gz
+      archivedFileCount: 7
+      timeZone: UTC
+      maxFileSize: 10MB
+
+
+#enable wire debugging for http inbound and outbound request/response
+httpDebugging: true

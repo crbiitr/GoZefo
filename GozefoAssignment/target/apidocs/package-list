@@ -1,0 +1,8 @@
+com.api
+com.api.constants
+com.api.dao
+com.api.dao.factories
+com.api.dao.models
+com.api.representation.request
+com.api.representation.response
+com.api.resources
