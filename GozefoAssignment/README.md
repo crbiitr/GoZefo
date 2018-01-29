@@ -22,7 +22,7 @@
 
 
 # APIs
-#Search Product using filter:
+#Search Product using filter: (Post request)
 URL: http://localhost:8080/product-list
 Data:{
      	"subcategory": "sofas",
@@ -37,7 +37,7 @@ Data:{
      	"sort_by": "type"
      }
 
-# Add Product: POST request
+# Add Product: (POST request)
 URL: http://localhost:8080/product
 Data: {
       	"subcategory": "sofas",
